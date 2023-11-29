@@ -11,8 +11,12 @@
 Markdown形式でファイル構造も表現できるようにしている為、index.mdを見ればフォルダ内の全体感が掴める。
 
 ## その他
-Pythonで記載していますが、pathlibを別途インストールしています。
+Pythonで記載していますが、PySimpleGUI,pathlibを別途インストールしています。
 pipを使用して、以下を実行してください。
 ```
 pip install pathlib
+pip install PySimpleGUI
 ```
+
+## Licence
+LGPL 3.0
