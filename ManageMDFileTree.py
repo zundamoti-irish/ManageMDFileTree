@@ -1,4 +1,4 @@
-#pathlib、PySimpleGUIは別途pipでインストールしておく。
+#pathlibは別途pipでインストールしておく。
 import pathlib
 import os
 import PySimpleGUI as sg
@@ -7,6 +7,8 @@ import PySimpleGUI as sg
 def main():
 
     Folderpath = sg.popup_get_folder("フォルダを選択してください")
+    if Folderpath == None:
+        return
     #Folderpath = os.getcwd()#対象フォルダを指定
     outputpath = 'index.md'#テキストファイルを作成
     f = open(outputpath, mode='w')#テキストファイルを書き込みモードで開く
