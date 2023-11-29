@@ -1,4 +1,4 @@
-#pathlibは別途pipでインストールしておく。
+#pathlib、PySimpleGUIは別途pipでインストールしておく。
 import pathlib
 import os
 import PySimpleGUI as sg
